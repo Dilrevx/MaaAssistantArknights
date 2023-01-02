@@ -9494,10 +9494,16 @@
             576,
             288,
             144
-        ],
-        "next": [
-            "SSSStartFighting",
-            "SSSCloseTip"
+        ]
+    },
+    "SSSStageNameOCR": {
+        "algorithm": "OcrDetect",
+        "text": [],
+        "roi": [
+            121,
+            263,
+            188,
+            50
         ]
     },
     "SSSCloseTip": {
@@ -9516,7 +9522,24 @@
         "action": "ClickSelf",
         "algorithm": "OcrDetect",
         "text": [
-            "开始部署"
+            "开始部署",
+            "重新部署"
+        ],
+        "roi": [
+            992,
+            576,
+            288,
+            144
+        ],
+        "next": [
+            "SSSStartFighting2"
+        ]
+    },
+    "SSSStartFighting2": {
+        "action": "ClickSelf",
+        "algorithm": "OcrDetect",
+        "text": [
+            "开始行动"
         ],
         "roi": [
             992,
